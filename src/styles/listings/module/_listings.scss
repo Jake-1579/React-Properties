@@ -1,98 +1,18 @@
-.header {
-  background: $colour-theme-blue;
+.property {
 
-  &__container {
+  &__items {
+    margin-top: ($spacing-unit * 8) !important;
 
-    &__row {
+    &__item {
+      margin-bottom: ($spacing-unit * 10) !important;
+    }
 
-      form {
-        align-items: center;
-        box-sizing: border-box;
-        display: flex;
-        flex-flow: wrap;
-        justify-content: center;
-        padding: ($spacing-unit * 5) ($spacing-unit * 3);
-        width: 100%;
+  }
 
-        @media #{$ipad} {
-          flex-flow: nowrap;
-          padding: ($spacing-unit * 5) 0;
-        }
+  &__additional {
 
-        label {
-          @include font-size(42px);
-          color: $colour-white;
-          font-weight: 600;
-          letter-spacing: 0.75px;
-          text-align: center;
-          width: 100%;
-
-          @media #{$ipad} {
-            @include font-size(32px);
-            margin-right: ($spacing-unit * 3);
-            text-align: left;
-            width: auto;
-          }
-
-        }
-
-
-        .input-wrapper {
-          position: relative;
-          width: 82%;
-
-          @media #{$ipad} {
-            width: 70%;
-          }
-
-          input {
-            @include line-height(45px);
-            border: 0;
-            box-sizing: border-box;
-            height: 45px;
-            padding: 0 ($spacing-unit * 3);
-            width: 100%;
-          }
-
-          .search {
-            @include line-height(45px);
-            display: inline-block;
-            height: 45px;
-            margin-right: ($spacing-unit * 3);
-            position: absolute;
-            right: 0;
-            top: 0;
-
-            i {
-              @include font-size(24px);
-              color: $colour-search-icon;
-            }
-
-          }
-
-        }
-
-        .location {
-          @include line-height(48px);
-          background: $colour-white;
-          box-sizing: border-box;
-          height: 45px;
-          margin-left: ($spacing-unit + 3);
-          padding: 0 ($spacing-unit * 3);
-
-          @media #{$ipad} {
-            margin-left: ($spacing-unit * 3);
-          }
-
-          i {
-            @include font-size(24px);
-            color: $colour-search-icon;
-          }
-
-        }
-
-      }
-
+    &--price, &--desc {
+      font-size: 14px !important;
     }
 
   }
