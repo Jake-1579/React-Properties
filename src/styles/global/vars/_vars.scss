@@ -1,0 +1,23 @@
+//Spacing Variables
+$spacing-unit: 5px;
+
+//Font Stack
+$font-stack: Helvetica,Arial,sans-serif;
+
+//Global Colour Variables
+$colour-white: #fff;
+$colour-black: #333;
+$colour-theme-blue: #3299CC;
+$colour-error-red: #ff0000;
+
+  //Media Query Variables
+$mobile: 'only screen and (min-width: 480px)';
+$mobile-landscape: 'only screen and (min-width: 568px)';
+
+$mobile-iphone6: 'only screen and (min-width: 375px)';
+$mobile-iphone6-landscape: 'only screen and (min-width: 667px)';
+
+$ipad: 'only screen and (min-width: 768px)';
+$ipad-landscape: 'only screen and (min-width: 992px)';
+
+$desktop: 'only screen and (min-width: 1200px)';
